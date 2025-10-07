@@ -1,0 +1,34 @@
+{
+  "languageserver": {
+    "solargraph": {
+      "command": "/Users/nonohara/.rbenv/shims/solargraph",
+      "args": ["stdio"],
+      "filetypes": ["ruby"],
+      "rootPatterns": ["Gemfile", "gems.rb", ".git/"],
+      "settings": {
+        "solargraph": {
+          "autoformat": true,
+          "completion": true,
+          "diagnostics": true,
+          "hover": true,
+          "symbols": true,
+          "rails": true
+        }
+      }
+    },
+    "rubocop": {
+      "command": "sh",
+      "args": [
+        "-c",
+        "cd \"${workspaceFolder}\" 2>/dev/null || true; if [ -f Gemfile ] || [ -f gems.rb ]; then bundle exec rubocop --lsp; else rubocop --lsp; fi"
+      ],
+      "filetypes": ["ruby"],
+      "rootPatterns": ["Gemfile", "gems.rb", "config/application.rb", ".git/"],
+      "requireRootPattern": false
+    }
+  },
+  "suggest.noselect": true,
+  "coc.preferences.formatOnSave": false,
+  "html.filetypes": ["html", "htm", "handlebars", "erb", "html.erb", "eruby", "eruby.html"],
+  "copilot.enable": false
+}

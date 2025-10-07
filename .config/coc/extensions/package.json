@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@statiolake/coc-github-copilot": ">=2.3.0",
+    "@statiolake/coc-lm-api": ">=2.3.0",
+    "coc-html": ">=1.8.0"
+  },
+  "lastUpdate": 1765171371607
+}
