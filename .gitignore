@@ -1,3 +1,6 @@
+# macOS
+**/.DS_Store
+
 # Secrets / credentials
 .config/github-copilot/apps.json
 .config/iterm2/sockets/secrets
