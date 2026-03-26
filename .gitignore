@@ -3,7 +3,6 @@
 
 # Secrets / credentials
 .config/github-copilot/apps.json
-.config/iterm2/sockets/secrets
 
 # node_modules (restore via npm install)
 .config/coc/extensions/node_modules/
@@ -16,6 +15,5 @@
 .config/coc/commands
 
 # Runtime data
-.config/iterm2/AppSupport/
-.config/iterm2/sockets/
+.config/iterm2/
 .config/github-copilot/versions.json
