@@ -119,12 +119,5 @@ end
 
 vim.notify('initialization complated')
 
--- Copilot (coc-github-copilot) inline completion accept on <C-l>
-vim.keymap.set("i", "<C-l>", function()
-  if vim.fn["coc#inline#visible"]() == 1 then
-    return vim.fn["coc#inline#accept"]()
-  end
-  return "<C-l>"
-end, { expr = true, silent = true, noremap = true })
 vim.keymap.set("t", "<C-t>", [[<C-\><C-n>]], { silent = true })
 

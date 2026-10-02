@@ -29,6 +29,5 @@
   },
   "suggest.noselect": true,
   "coc.preferences.formatOnSave": false,
-  "html.filetypes": ["html", "htm", "handlebars", "erb", "html.erb", "eruby", "eruby.html"],
-  "copilot.enable": false
+  "html.filetypes": ["html", "htm", "handlebars", "erb", "html.erb", "eruby", "eruby.html"]
 }
